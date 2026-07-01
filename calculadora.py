@@ -12,7 +12,8 @@ while True:
     print("2) Restar");      
     print("3) Multiplicar");       
     print("4) Dividir "); 
-    print("5) Salir")
+    print("5) Potencia")
+    print("6) Salir")
 
     opc = int(input("Elige una opcion: "));     
 
@@ -28,7 +29,10 @@ while True:
     elif (opc == 4):
         print(f"La division es {num1/num2}");
         break;
-    elif(opc == 5):
+    elif (opc == 5):
+        print(f"La potencia es {num1^num2}")
+        break
+    elif (opc == 6):
         print("Hasta pronto!.")
         break
     else:
